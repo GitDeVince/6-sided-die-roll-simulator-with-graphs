@@ -64,8 +64,8 @@ def plotting():
     plt.bar( x_value, y_value, color = 'maroon')
 
     plt.title("Bar graph of " + f'{rolls}'  " attempts from a 6-sided Die", fontsize = 24) #I thought about doing the "f'{rolls}' as a way to make the title of the graph customizable"
-    plt.xlabel("Number of attempts", fontsize = 14)
-    plt.ylabel("Side of a die", fontsize = 14)
+    plt.xlabel("Side of a die", fontsize = 14)
+    plt.ylabel("Number of attempts", fontsize = 14)
 
     plt.show()
 
